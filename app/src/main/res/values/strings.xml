@@ -1,0 +1,170 @@
+<resources>
+    <string name="app_name">Magzee</string>
+
+
+    <string name="preference_resolution_title">Resolution</string>
+    <string name="preference_resolution_summary">Select the resolution to record at</string>
+    <string name="preference_fps_title">Frames per second</string>
+    <string name="preference_fps_summary">Choose fps to record at</string>
+    <string name="preference_bit_title">Bit rate</string>
+    <string name="preference_bit_summary">Choose bit rate</string>
+    <string name="preference_audio_record_title">Audio Source</string>
+    <string name="preference_audio_record_summary">Records audio from mic along with screen video</string>
+    <string name="preference_save_location_title">Save location</string>
+    <string name="res_key" translatable="false">resolution</string>
+    <string name="fps_key" translatable="false">fps</string>
+    <string name="bitrate_key" translatable="false">bitrate</string>
+    <string name="audiorec_key" translatable="false">audiorecloc</string>
+    <string name="savelocation_key" translatable="false">savelocation</string>
+    <string name="filename_key" translatable="false">filename</string>
+    <string name="preference_filename_format_title">File name format</string>
+    <string name="fileprefix_key" translatable="false">fileprefix</string>
+    <string name="preference_filename_prefix_title">File name prefix</string>
+    <string name="storage_permission_request_title">Allow Storage Permission</string>
+    <string name="storage_permission_request_summary">Write permission to storage is required to save the recorded video.</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="screen_recording_permission_denied">Screen Recording Permission Denied</string>
+    <string name="screen_recording_notification_title">Screen recording</string>
+    <string name="screen_recording_notification_action_stop">Stop</string>
+    <string name="screen_recording_notification_action_pause">Pause</string>
+    <string name="screen_recording_notification_action_resume">Resume</string>
+    <string name="fatal_exception_message">ScreenRecorder: Saving video failed! Log will be sent if enabled.</string>
+    <string name="about_activity_label">About</string>
+    <string name="snackbar_storage_permission_message">Grant storage perm</string>
+    <string name="snackbar_storage_permission_action_enable">ENABLE</string>
+    <string name="menu_about_title">About</string>
+    <string name="about_credits">Credits</string>
+    <string name="about_libraries">Libraries</string>
+    <string name="about_opensource">Open Source</string>
+    <string name="app_icon_credit_Niko">App Icons by %1$s\n\nwebsite: %2$s\n\nAll rights reserved by the designer with exclusive forever license for the official app only</string>
+    <string name="video_editor_library_credit">Video Editor by %1$s\n\nGithub url: %2$s\n\nLicense: %3$s</string>
+    <string name="analytics_library_credit">Crash reporting and analytics SDK by %1$s\n\nGithub url: %2$s\n\nLicense: %3$s</string>
+    <string name="iap_library_credit">In-app purchase helper library by %1$s\n\nGithub url: %2$s\n\nLicense: %3$s</string>
+    <string name="changelog_library_credit">Changelog display library by %1$s\n\nGithub url: %2$s\n\nLicense: %3$s</string>
+    <string name="opensource_info">This app is open source and the source could be obtained at \n\nGitlab url: %1$s\n\nLicense: %2$s</string>
+    <string name="fab_record_hint">Start recording</string>
+    <string name="recording_failed_toast">Screen recording failed.</string>
+    <string name="screenrecording_already_active_toast">Screen recording session already active</string>
+    <string name="shortcut_short_label">Record</string>
+    <string name="shortcut_long_label">Quick Record</string>
+    <string name="shortcut_disabled_message">Recording disabled</string>
+    <string name="app_shortcut_action" translatable="false">com.orpheusdroid.screenrecorder.RECORD</string>
+    <string name="screen_recording_started_toast">Screen recording started</string>
+    <string name="screen_recording_stopped_toast">Screen Recording stopped</string>
+    <string name="screen_recording_resumed_toast">Screen Recording resumed</string>
+    <string name="screen_recording_paused_toast">Screen Recording paused</string>
+    <string name="share_intent_title">Share recorded</string>
+    <string name="share_intent_notification_title">Share recorded video</string>
+    <string name="share_intent_notification_content">click to open the recorded videos</string>
+    <string name="share_intent_notification_action_text">Share</string>
+    <string name="preference_floating_control_title">Use Floating Controls</string>
+    <string name="preference_floating_control_summary">Enable/Disable floating controls which draws over every screen</string>
+    <string name="preference_floating_control_key" translatable="false">floating_controls</string>
+    <string name="tab_settings_title">Settings</string>
+    <string name="tab_videos_title">Videos</string>
+    <string name="video_list_permission_denied_message">Storage permission denied</string>
+    <string name="video_list_no_video_message">No videos available</string>
+    <string name="alert_title_create_folder">Create Folder</string>
+    <string name="alert_message_create_folder">Enter folder name</string>
+    <string name="prefs_category_video_settings_title">Video settings</string>
+    <string name="prefs_category_audio_settings_title">Audio settings</string>
+    <string name="prefs_category_save_options_title">Save options</string>
+    <string name="prefs_category_recording_settings_title">Recording Settings</string>
+    <string name="menu_privacy_policy">Privacy Policy</string>
+    <string name="preference_show_touch_title">Show touches</string>
+    <string name="preference_show_touch_summary">Enable/disable touch</string>
+    <string name="preference_show_touch_key" translatable="false">touch_pointer</string>
+    <string name="alert_plugin_not_found_title">Plugin not found</string>
+    <string name="alert_plugin_not_found_message">Plugin is required to show touches. Do you want to buy it now?</string>
+    <string name="alert_permission_denied_title">Storage Permission Denied</string>
+    <string name="alert_permission_denied_message">The app requires storage permission to save the recorded video and change default save directory.The app is rendered useless without the permission\n\nDo you want to grant it now?</string>
+    <string name="edit_intent_notification_action_text">Edit</string>
+    <string name="prefs_category_analytics_title">Anonymous analytics</string>
+    <string name="preference_crash_reporting_title">Crash reporting</string>
+    <string name="preference_crash_reporting_summary">Enable anonymous crash reporting</string>
+    <string name="preference_crash_reporting_key" translatable="false">crash_reporting</string>
+    <string name="preference_anonymous_statistics_title">Anonymous statistics</string>
+    <string name="preference_anonymous_statistics_summary">Enable anonymous statistics on number of app usages</string>
+    <string name="preference_anonymous_statistics_key" translatable="false">usage_statistics</string>
+    <string name="preference_floating_control_size_title">Floating controls icon size</string>
+    <string name="preference_floating_control_size_summary">Set the icon size of on-screen floating control</string>
+    <string name="preference_floating_control_size_key" translatable="false">floatingControlSize</string>
+    <string name="storage_selection_spinner_title">Select storage</string>
+    <string name="external_storage_dir_not_writable">The directory is not writable</string>
+    <string name="alert_external_storage_warn_cb_text">Do not show again</string>
+    <string name="alert_ext_dir_warning_title">Warning</string>
+    <string name="alert_ext_dir_warning_message">Saving to external directory may not work on all phones. Proceed with caution.</string>
+    <string name="prefs_category_experimental_title">Experimental</string>
+    <string name="preference_save_gif_title">Enable saving in GIF</string>
+    <string name="preference_save_gif_summary">Enables saving videos as GIF animation</string>
+    <string name="preference_save_gif_key" translatable="false">save_gif</string>
+    <string name="preference_shake_gesture_title">Shake to start/stop recording</string>
+    <string name="preference_shake_gesture_summary">Shake your device to start or stop recording</string>
+    <string name="preference_shake_gesture_key" translatable="false">shake_gesture</string>
+    <string name="screenrecording_waiting_for_gesture_toast">Shake your device to start recording when ready</string>
+    <string name="preference_theme_key" translatable="false">theme</string>
+    <string name="prefs_category_theme_title">Theme</string>
+    <string name="preference_theme_title">Choose Theme</string>
+    <string name="preference_enable_target_app_title">Enable target app</string>
+    <string name="preference_enable_target_app_summary">Open target app before recording</string>
+    <string name="preference_enable_target_app_key" translatable="false">enable_app_target</string>
+    <string name="preference_app_chooser_title">Choose App</string>
+    <string name="preference_app_chooser_summary">Choose an app to start by default while recording</string>
+    <string name="preference_app_chooser_key" translatable="false">app_chosen</string>
+    <string name="video_not_found">Video not found!</string>
+    <string name="donate_activity_label">Donate</string>
+    <string name="menu_donate">Donate</string>
+    <string name="menu_help">Get Help</string>
+    <string name="menu_delete">delete</string>
+    <string name="menu_select_all">select all</string>
+    <string name="menu_share">Share</string>
+    <string name="quick_settings_tile_default_title">Add ScreenCam tile</string>
+    <string name="quick_settings_tile_start_title">Start recording</string>
+    <string name="quick_settings_tile_stop_title">Stop recording</string>
+    <string name="orientation_key" translatable="false">orientation</string>
+    <string name="preference_orientation_summary">Default orientation</string>
+    <string name="preference_orientation_title">Orientation</string>
+    <string name="toast_message_countly_activity_restart">Restarting activity for new settings to take effect</string>
+    <string name="toast_message_bitrate_high_warning">Bit rate too high! May not work for all</string>
+    <string name="preference_camera_overlay_title">Show Camera Overlay</string>
+    <string name="preference_camera_overlay_summary">Enable/Disable Camera overlay. You can switch between front and back camera</string>
+    <string name="preference_camera_overlay_key" translatable="false">camera_overlay</string>
+    <string name="alert_dialog_internal_audio_warning_title">Warning</string>
+    <string name="alert_dialog_internal_audio_warning_message">Internal audio recording records audio along with mic audio.\nAlso, it does not work on all phones (Confirmed working on OnePlus, Xiaomi, and few Moto phones). You might try your luck</string>
+    <string name="alert_dialog_r_submix_audio_warning_message">Recording internal audio using submix will require you to install the magisk systemizer module. You will not be able to hear any audio while recording and this is not a bug.\n\n Read FAQ to know more</string>
+    <string name="alert_dialog_internal_audio_warning_faq_text">Show FAQ</string>
+    <string name="alert_dialog_internal_audio_warning_negative_btn_text">Do not show this message again</string>
+    <string name="preference_magisk_download_key" translatable="false">magisk_download_key</string>
+    <string name="preference_faq_key" translatable="false">faq</string>
+    <string name="preference_magisk_download_title">ScreenCam Magisk Module</string>
+    <string name="preference_magisk_download_summary">Download magisk module for enabling internal audio recording</string>
+    <string name="preference_faq_title">FAQ</string>
+    <string name="preference_faq_summary">Frequently Asked Questions and Answers</string>
+    <string name="preference_category_misc_title">Misc</string>
+    <string name="preference_sysui_demo_mode_title">SystemUI Demo Mode</string>
+    <string name="toast_magisk_module_required_message">Magisk module is required</string>
+    <string name="preference_sysui_demo_mode_summary">Enable SystemUI Demo Mode</string>
+    <string name="preference_sysui_demo_mode_key" translatable="false">sysui_demo</string>
+    <string name="toast_msg_root_failed">Acquiring root access failed.</string>
+    <string name="shortcut_storage_permission_request_title">Please grant Storage permission before using shortcut</string>
+    <string name="audiobitrate_key" translatable="false">audiobitrate</string>
+    <string name="audiochannels_key" translatable="false">audiochannels</string>
+    <string name="audiosamplingrate_key" translatable="false">audiosamplingrate</string>
+    <string name="preference_audio_bitrate_title">Audio Bitrate</string>
+    <string name="preference_audio_channel_title">Audio channel</string>
+    <string name="preference_audio_sampling_rate_title">Audio sampling rate</string>
+    <string name="preference_audio_settings_unavailable_summary">This setting is unavailable for the selected audio source</string>
+    <plurals name="delete_alert_title">
+        <item quantity="zero">Delete video?</item>
+        <item quantity="one">Delete video?</item>
+        <item quantity="other">Delete videos?</item>
+    </plurals>
+    <plurals name="delete_alert_message">
+        <item quantity="zero">Are you sure you want to delete the video?</item>
+        <item quantity="one">Are you sure you want to delete the video?</item>
+        <item quantity="other">Are you sure you want to delete %1$d videos?</item>
+    </plurals>
+
+
+</resources>
